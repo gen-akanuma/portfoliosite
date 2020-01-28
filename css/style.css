@@ -1,0 +1,257 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #424242;
+  line-height: 1.6;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom; }
+
+ul,
+ol {
+  list-style: none; }
+
+input,
+textarea,
+select {
+  max-width: 100%; }
+
+.l-justify-left {
+  display: flex;
+  justify-content: flex-start; }
+
+.l-justify-right {
+  display: flex;
+  justify-content: flex-end; }
+
+.l-justify-center {
+  display: flex;
+  justify-content: center; }
+
+.l-space-between {
+  display: flex;
+  justify-content: space-between; }
+
+.l-header {
+  height: 100px;
+  line-height: 100px;
+  background-color: orange;
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.l-mainv {
+  width: 100%;
+  padding-top: 48.9%;
+  height: 0;
+  background-image: url(https://placehold.jp/1366x668.png);
+  background-size: cover;
+  text-align: center;
+  position: relative; }
+  .l-mainv .texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.l-greeting {
+  text-align: center;
+  padding: 70px 30% 80px;
+  background-color: skyblue; }
+
+.l-cards {
+  padding: 100px;
+  background-color: yellow; }
+  .l-cards ul {
+    display: flex; }
+    .l-cards ul li {
+      text-align: center; }
+
+.l-info {
+  display: flex; }
+  .l-info div {
+    width: 50%; }
+
+.l-info__left-column {
+  padding: 80px; }
+
+.l-footer {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 80px; }
+  .l-footer .o-nav {
+    justify-content: center; }
+
+.o-logo {
+  font-weight: bold; }
+
+.o-nav {
+  display: flex; }
+  .o-nav li {
+    margin-right: 20px; }
+
+.o-btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.3em 1.2em;
+  margin: 0;
+  background-image: none;
+  background-color: #ff7385;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-size: 1.2em;
+  font-size: 1.8rem;
+  text-align: center;
+  appearance: none;
+  outline: none; }
+
+.o-btn--mail {
+  background-color: skyblue; }
+
+.o-caption {
+  font-size: 4.4rem; }
+
+.o-heading {
+  font-weight: bold;
+  font-size: 4rem; }
+
+.o-info-table th {
+  text-align: left; }
+
+.u-mt10 {
+  margin-top: 10px; }
+
+.u-mt20 {
+  margin-top: 20px; }
+
+.u-mt30 {
+  margin-top: 30px; }
+
+.u-mt40 {
+  margin-top: 40px; }
+
+.u-mt50 {
+  margin-top: 50px; }
+
+.u-mr10 {
+  margin-right: 10px; }
+
+.u-mr20 {
+  margin-right: 20px; }
+
+.u-mb30 {
+  margin-bottom: 30px; }
+
+.u-mb40 {
+  margin-bottom: 40px; }
+
+.u-pb40 {
+  padding-bottom: 40px; }
+
+.u-pl50 {
+  padding-left: 50px; }
